@@ -1,6 +1,8 @@
+package core;
+
 public class CPUClass implements CPU {
 
-
+    public CPUClass() {}
 
     @Override
     public void cpuInit() {
@@ -9,6 +11,7 @@ public class CPUClass implements CPU {
 
     @Override
     public boolean cpuStep() {
+        System.out.println("Not implemented");
         return false;
     }
 }
